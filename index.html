@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      href="https://fonts.google.com/specimen/Major+Mono+Display?preview.text=BLOG%20FOR%20FOODIES&preview.text_type=custom&query=majo"
+      rel="style.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="_REPLACE_WITH_DESCRIPTION_" />
     <meta
@@ -12,38 +16,28 @@
     <meta name="author" content="_YOUR_NAME_" />
     <link rel="stylesheet" href="/style.css" />
     <!-- TODO: Import Javascript -->
-    <title>_REPLACE_SITE_NAME</title>
+    <title>Blog for foodies</title>
   </head>
   <body class="animate__animated animate__fadeIn">
     <header class="l-header">
-      <h1>Home</h1>
+      <h1>BLOG FOR FOODIES</h1>
     </header>
 
-    <main class="l-main">
-      <section role="search"></section>
-
-      <article role="doc-introduction">
-        <h2>List</h2>
-
-        <img
-          src="/placeholder.jpg"
-          loading="lazy"
-          alt="…"
-          class="u-img hero-image"
-          width="1024"
-          height="1024"
-        />
-
-        <p>_REPLACE_INTRODUCTION_</p>
-      </article>
-
-      <section role="list">
-        <div id="js-list-container">_LOADING_INDICATOR_GOES_HERE_</div>
-      </section>
-    </main>
+    <main class="l-main"></main>
 
     <footer class="l-footer">
-      <small>Created with ❤️ by _REPLACE_</small>
+      <small>Created with ❤️ by Mikaela Joelsen</small>
     </footer>
+    <script>
+      const options = { method: "GET" };
+
+      fetch(
+        "https://mikaelajoelsenexam.flywheelsites.com//wp-json/wp/v2/posts/",
+        options
+      )
+        .then((response) => response.json())
+        .then((response) => console.log(response))
+        .catch((err) => console.error(err));
+    </script>
   </body>
 </html>
