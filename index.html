@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link
-      href="https://fonts.google.com/specimen/Major+Mono+Display?preview.text=BLOG%20FOR%20FOODIES&preview.text_type=custom&query=majo"
-      rel="style.css"
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="_REPLACE_WITH_DESCRIPTION_" />
@@ -13,19 +19,57 @@
       name="keywords"
       content="HTML, CSS, JavaScript, _REPLACE_WITH_KEYWORD_"
     />
-    <meta name="author" content="_YOUR_NAME_" />
+    <meta name="author" content="Mikaela Joelsen" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <script type="module" defer src="/js/menu.js"></script>
     <!-- TODO: Import Javascript -->
     <title>Blog for foodies</title>
   </head>
   <body class="animate__animated animate__fadeIn">
     <header class="l-header">
-      <h1>BLOG FOR FOODIES</h1>
+      <h1 class="title">BLOG FOR FOODIES</h1>
+      <div class="main-list">
+        <nav>
+          <ul>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-
-    <main class="l-main"></main>
-
-    <footer class="l-footer">
+    <main class="l-main">
+      <hr class="line" />
+    </main>
+    <footer>
+      <div>
+        <form class="searchbar" action="/action_page.php">
+          <input type="text" placeholder="Search..." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="social">
+        <a href="#"><i class="icon ion-social-instagram"></i></a
+        ><a href="#"><i class="icon ion-social-snapchat"></i></a
+        ><a href="#"><i class="icon ion-social-twitter"></i></a
+        ><a href="#"><i class="icon ion-social-facebook"></i></a>
+      </div>
+      <ul class="list-footer">
+        <li class="list-item"><a href="#">Services</a></li>
+        <li class="list-item"><a href="#">About</a></li>
+        <li class="list-item"><a href="#">Terms</a></li>
+        <li class="list-item"><a href="#">Privacy Policy</a></li>
+      </ul>
       <small>Created with ❤️ by Mikaela Joelsen</small>
     </footer>
     <script>

@@ -11,3 +11,26 @@
 @import "css/layout.css";
 @import "css/form.css";
 @import "css/ui.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Major+Mono+Display&display=swap");
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Indie Flower", cursive;
+  font-family: "Major Mono Display", monospace;
+  font-size: 50px;
+}
+
+.main-list nav ul li {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.line {
+  width: 90%;
+  size: 20;
+  border: 2px solid rgb(253, 182, 197);
+}
