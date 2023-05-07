@@ -23,14 +23,48 @@
   font-size: 50px;
 }
 
-.main-list nav ul li {
+.main-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 120px;
+  flex-wrap: wrap;
+}
+
+.main-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.main-list a {
+  display: flex;
+  flex-wrap: wrap;
   color: black;
+  font-size: 20px;
 }
 
 .line {
   width: 90%;
   size: 20;
   border: 2px solid rgb(253, 182, 197);
+}
+
+.list-products {
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+  font-weight: 900;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.list-products a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }

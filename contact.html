@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="_REPLACE_WITH_DESCRIPTION_" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, _REPLACE_WITH_KEYWORD_"
+    />
+    <meta name="author" content="Mikaela Joelsen" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script type="module" defer src="/js/menu.js"></script>
+    <!-- TODO: Import Javascript -->
+    <title>Contact Page</title>
+  </head>
+  <body class="animate__animated animate__fadeIn">
+    <header class="l-header">
+      <h1 class="title">CONTACT PAGE</h1>
+      <div class="main-list">
+        <nav>
+          <ul>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="index.html">Home Page</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="l-main">
+      <hr class="line" />
+      <section id="contact-page">
+        <div class="contact-wrapper">
+          <form id="contact-form" class="form-horizontal" role="form">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="NAME"
+                  name="name"
+                  value=""
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="EMAIL"
+                  name="email"
+                  value=""
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input
+                  type="subject"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Subject"
+                  name="email"
+                  value=""
+                  required
+                />
+              </div>
+            </div>
+
+            <textarea
+              class="form-control"
+              rows="10"
+              placeholder="MESSAGE"
+              name="message"
+              required
+            ></textarea>
+
+            <button
+              class="btn btn-primary send-button"
+              id="submit"
+              type="submit"
+              value="SEND"
+            >
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i
+                ><span class="send-text">SEND</span>
+              </div>
+            </button>
+          </form>
+
+          <div class="contact-container">
+            <ul class="contact-list">
+              <li class="list-item">
+                <i class="fa fa-map-marker fa-2x"
+                  ><span class="contact-text place">Oslo, Norway</span></i
+                >
+              </li>
+
+              <li class="list-item">
+                <i class="fa fa-phone fa-2x"
+                  ><span class="contact-text phone"
+                    ><a href="tel:1-212-555-5555" title="Give me a call"
+                      >(+47) 455 89 546</a
+                    ></span
+                  ></i
+                >
+              </li>
+
+              <li class="list-item">
+                <i class="fa fa-envelope fa-2x"
+                  ><span class="contact-text gmail"
+                    ><a href="mailto:#" title="Send me an email"
+                      >blogforfoodies@hotmail.com</a
+                    ></span
+                  ></i
+                >
+              </li>
+            </ul>
+            <hr />
+            <ul class="social-media">
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-snapchat" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>NewsLetter</h2>
+      <form class="email" action="">
+        <input type="Email" placeholder="Email..." required />
+        <button type="submit">Submit</button>
+      </form>
+      <div class="social">
+        <a href="#"><i class="icon ion-social-instagram"></i></a
+        ><a href="#"><i class="icon ion-social-snapchat"></i></a
+        ><a href="#"><i class="icon ion-social-twitter"></i></a
+        ><a href="#"><i class="icon ion-social-facebook"></i></a>
+      </div>
+      <ul class="list-footer">
+        <li class="list-item"><a href="#">Services</a></li>
+        <li class="list-item"><a href="#">About</a></li>
+        <li class="list-item"><a href="#">Terms</a></li>
+        <li class="list-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <small>Created with ❤️ by Mikaela Joelsen</small>
+    </footer>
+    <script>
+      const options = { method: "GET" };
+
+      fetch(
+        "https://mikaela-exam.flywheelsites.com//wp-json/wp/v2/posts/",
+        options
+      )
+        .then((response) => response.json())
+        .then((response) => console.log(response))
+        .catch((err) => console.error(err));
+    </script>
+  </body>
+</html>

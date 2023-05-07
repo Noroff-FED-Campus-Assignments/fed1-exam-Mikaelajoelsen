@@ -1,0 +1,20 @@
+header {
+  background-image: url(/assets/food-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  display: flex;
+  justify-self: center;
+  max-width: 900px;
+  font-size: 25px;
+}
