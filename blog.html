@@ -20,6 +20,7 @@
       content="HTML, CSS, JavaScript, _REPLACE_WITH_KEYWORD_"
     />
     <meta name="author" content="Mikaela Joelsen" />
+    <link rel="stylesheet" href="/css/blog.css" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/css/about.css" />
     <link rel="stylesheet" href="/css/footer.css" />
@@ -36,6 +37,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script type="module" defer src="/js/menu.js"></script>
+    <script type="module" defer src="/js/blog.js"></script>
     <!-- TODO: Import Javascript -->
     <title>Contact Page</title>
   </head>
@@ -85,7 +87,7 @@
       const options = { method: "GET" };
 
       fetch(
-        "https://mikaela-exam.flywheelsites.com//wp-json/wp/v2/posts/",
+        "https://mikaela-exam.flywheelsites.com/wp-json/wp/v2/posts/",
         options
       )
         .then((response) => response.json())

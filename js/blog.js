@@ -1,6 +1,6 @@
 const detailContainer = document.querySelector("#js-results");
 
-const url = "https://mikaela-exam.flywheelsites.com//wp-json/wp/v2/posts";
+const url = "https://mikaela-exam.flywheelsites.com/wp-json/wp/v2/posts";
 
 async function fetchresults() {
   try {
