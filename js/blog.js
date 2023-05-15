@@ -1,6 +1,7 @@
 const detailContainer = document.querySelector("#js-results");
 
-const url = "https://mikaela-exam.flywheelsites.com//wp-json/wp/v2/posts";
+const url =
+  "https://mikaela-exam.flywheelsites.com//wp-json/wp/v2/posts/?per_page=30";
 
 async function fetchresults() {
   try {
@@ -19,13 +20,13 @@ async function fetchresults() {
 fetchresults();
 
 function makeCards(postsArray) {
-  const cardContainer = document.querySelector("#card-container");
+  const blogContainer = document.querySelector("#blog-container");
   console.log(postsArray);
   postsArray.forEach((post) => {
-    cardContainer.innerHTML += `
+    blogContainer.innerHTML += `
       <a href="details.html?id=${post.id}" class="container">
         <h2>${post.title.rendered}</h2>
-        <p class="Tilte">${post.excerpt.rendered}</p>
+        <p class="Title">${post.excerpt.rendered}</p>
       </a>
     `;
   });

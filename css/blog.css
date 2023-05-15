@@ -8,29 +8,29 @@ h1 {
   font-size: 60px;
 }
 
-.card-section {
+.blog-section {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 1em;
   border-radius: 1em;
-  flex-wrap: wrap;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
   width: 400px;
   max-width: 400px;
-  text-decoration: none;
-  background-color: black;
+  background-color: rgb(239, 211, 217);
   padding: 1.25rem;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 16px;
-  border: 5px solid rgba(0, 0, 0, 0.709);
+  border: 5px solid rgb(239, 211, 217);
 }
 
 .container:hover {
-  background-color: rgba(255, 88, 66, 0.709);
+  background-color: pink;
   color: black;
 }
 
@@ -45,12 +45,6 @@ h1 {
   font-weight: bold;
 }
 
-.image {
-  height: 150px;
-  background-size: cover;
-  background-position: center top;
-}
-
 .search-options {
   display: flex;
   justify-content: center;
@@ -58,7 +52,7 @@ h1 {
   border-radius: 20px;
 }
 
-.card-details {
+.blog-details {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,4 +61,11 @@ h1 {
 a {
   color: black;
   font-size: 30px;
+}
+
+.back-button a {
+  margin-left: 30px;
+  color: rgb(230, 127, 144);
+  text-decoration: underline;
+  list-style: none;
 }

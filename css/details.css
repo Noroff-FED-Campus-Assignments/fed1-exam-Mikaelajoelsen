@@ -15,7 +15,7 @@ h2 {
   flex-wrap: wrap;
   max-width: 800px;
   text-decoration: none;
-  background-color: rgb(53, 50, 50);
+  background-color: rgb(232, 213, 232);
   padding: 1.25rem;
   color: white;
   margin: 16px;
@@ -28,11 +28,11 @@ h2 {
   flex-wrap: wrap;
   max-width: 800px;
   text-decoration: none;
-  background-color: rgb(53, 50, 50);
+  background-color: rgb(243, 224, 227);
   padding: 1.25rem;
-  color: white;
+  color: rgb(9, 9, 9);
   margin: 16px;
-  border: 5px solid rgba(0, 0, 0, 0.709);
+  border: 5px solid pink;
 }
 
 img {
@@ -52,7 +52,7 @@ img {
 
 .image {
   height: 150px;
-  background-size: cover;
+  background-size: contain;
   background-position: center top;
 }
 
@@ -65,4 +65,94 @@ img {
 a {
   color: black;
   font-size: 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Indie Flower", cursive;
+  font-family: "Major Mono Display", monospace;
+  font-size: 50px;
+}
+
+.main-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 120px;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.main-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.main-list a {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  font-size: 20px;
+}
+
+.line {
+  width: 100%;
+  size: 20;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.list-products {
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+  font-weight: 900;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.list-products a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.latest-posts {
+  padding: 0 10vh;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+.line-main {
+  width: 90%;
+  size: 20;
+  border: 1px solid rgb(253, 182, 197);
+  opacity: 0.5;
+}
+
+.header-main {
+  margin-top: 50px;
+  margin-left: 140px;
+  font-size: 20px;
+}
+
+.back-button a {
+  margin-left: 30px;
+  color: rgb(230, 127, 144);
+  text-decoration: underline;
+  list-style: none;
 }

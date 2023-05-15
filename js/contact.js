@@ -1,30 +1,34 @@
-/*
-============================================
-Constants
-@example: https://github.com/S3ak/fed-javascript1-api-calls/blob/main/examples/advanced-form.html#L50
-============================================
-*/
+var myForm = document.querySelector("#contact-form");
+myForm.addEventListener("submit", checkFields);
 
-// TODO: Get DOM elements from the DOM
+function checkFields(event) {
+  event.preventDefault();
+  var is_all_ok = true;
+  let nameRegEx = /^[a-z ,.'-]+$/i;
+  const emailEl = document.querySelector("#email");
+  const nameEl = document.querySelector("#name");
 
-// TODO: Create event listeners for the form
+  const name = nameEl.value;
+  const email = emailEl.value;
 
-/*
-============================================
-API calls
-@example: https://github.com/S3ak/fed-javascript1-api-calls/blob/main/examples/advanced-form.html#L157
-============================================
-*/
+  if (name === "" || !nameRegEx.test(name)) {
+    document.getElementById("nameerrormsg").style.display = "inline";
+    is_all_ok = false;
+  } else {
+    document.getElementById("nameerrormsg").style.display = "none";
+  }
 
-// TODO: Set up a function to fetch data from the API
+  if (email === "") {
+    document.getElementById("mailerrormsg").style.display = "inline";
+    is_all_ok = false;
+  } else {
+    document.getElementById("mailerrormsg").style.display = "none";
+  }
 
-/*
-============================================
-Helper functions
-@example: https://github.com/S3ak/fed-javascript1-api-calls/blob/main/examples/advanced-form.html#L118
-============================================
-*/
+  // Additional form validation logic goes here
 
-// TODO: Create a function to validate an input field
-
-// TODO: Create a function to create a DOM element
+  if (is_all_ok) {
+    console.log("Form submitted successfully");
+    myForm.reset();
+  }
+}
