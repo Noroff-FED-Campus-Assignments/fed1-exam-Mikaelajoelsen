@@ -96,3 +96,10 @@
   margin-left: 140px;
   font-size: 20px;
 }
+
+.line2 {
+  width: 90%;
+  size: 20;
+  border: 2px solid rgb(253, 182, 197);
+  opacity: 0.5;
+}

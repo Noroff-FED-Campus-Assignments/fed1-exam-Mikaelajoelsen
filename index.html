@@ -84,25 +84,32 @@
     <header class="l-header">
       <h1 class="title">BLOG FOR FOODIES</h1>
       <div class="main-list">
-        <nav>
+        <nav class="navbar">
           <ul>
-            <li><a href="blog.html">Recipes</a></li>
+            <li>
+              <a href="#">Recipes</a>
+            </li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
           </ul>
         </nav>
       </div>
       <hr class="line" />
-      <ul class="list-products">
-        <li class="list-item"><a href="#">Dessert</a></li>
-        <li class="list-item"><a href="#">Pasta</a></li>
-        <li class="list-item"><a href="#">Chicken</a></li>
-        <li class="list-item"><a href="#">Dinner</a></li>
-        <li class="list-item"><a href="#">Breakfast/Brunch</a></li>
-      </ul>
     </header>
     <main class="l-main">
       <h1 class="header-main">Latest Recipes</h1>
+      <hr class="line-main" />
+      <div class="card-slider-container">
+        <div class="card-slider">
+          <div class="card-slider-track"></div>
+        </div>
+        <div class="card-slider-navigation">
+          <button class="card-slider-nav-btn prev">Prev</button>
+          <button class="card-slider-nav-btn next">Next</button>
+        </div>
+      </div>
+      <h1 class="header-main">Most Popular Recipes</h1>
       <hr class="line-main" />
       <div class="all-cards">
         <div class="recipe-card">
@@ -201,10 +208,11 @@
           </div>
         </div>
       </div>
-      <hr />
+      <hr class="line2" />
       <div class="collage-img">
         <img src="/assets/Group 62.png" />
       </div>
+      <hr class="line2" />
     </main>
     <footer>
       <h2>NewsLetter</h2>
