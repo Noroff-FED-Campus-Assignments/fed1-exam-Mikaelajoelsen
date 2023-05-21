@@ -77,12 +77,13 @@
     <script type="module" defer src="/js/menu.js"></script>
     <script type="module" defer src="/js/blog.js"></script>
     <script type="module" defer src="/js/slider.js"></script>
+    <script type="module" defer src="/js/toggle.js"></script>
 
     <title>Blog for foodies</title>
   </head>
   <body class="animate__animated animate__fadeIn">
     <header class="l-header">
-      <h1 class="title">BLOG FOR FOODIES</h1>
+      <h1 class="title">BLOG FOR <span class="foodies">FOODIES</span></h1>
       <div class="main-list">
         <nav class="navbar">
           <ul>
@@ -94,10 +95,17 @@
             <li><a href="about.html">About Us</a></li>
           </ul>
         </nav>
+        <label class="toggle-switch">
+          <input type="checkbox" id="toggle" />
+          <span class="slider"></span>
+        </label>
       </div>
       <hr class="line" />
     </header>
     <main class="l-main">
+      <div class="top-header-image">
+        <img class="top-image" src="/assets/Group 64.png" />
+      </div>
       <h1 class="header-main">Latest Recipes</h1>
       <hr class="line-main" />
       <div class="card-slider-container">

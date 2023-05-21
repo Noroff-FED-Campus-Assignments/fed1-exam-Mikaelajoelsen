@@ -17,10 +17,15 @@
 .title {
   display: flex;
   justify-content: center;
+  gap: 2rem;
   flex-wrap: wrap;
   font-family: "Indie Flower", cursive;
   font-family: "Major Mono Display", monospace;
-  font-size: 50px;
+  font-size: 70px;
+}
+
+.foodies {
+  color: rgb(242, 55, 114);
 }
 
 .main-list {
@@ -45,7 +50,9 @@
   display: flex;
   flex-wrap: wrap;
   color: black;
-  font-size: 20px;
+  font-size: 30px;
+  margin-top: -13px;
+  text-decoration: underline;
 }
 
 .line {
@@ -92,9 +99,12 @@
 }
 
 .header-main {
+  display: flex;
   margin-top: 50px;
-  margin-left: 140px;
-  font-size: 20px;
+  margin-left: 3em;
+  font-size: 35px;
+  background-color: rgb(247, 217, 222);
+  width: 7em;
 }
 
 .line2 {
@@ -102,4 +112,107 @@
   size: 20;
   border: 2px solid rgb(253, 182, 197);
   opacity: 0.5;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(242, 55, 114);
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  color: rgb(242, 55, 114);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.dark-theme {
+  background-color: rgb(97, 79, 90);
+  color: #fff;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  transition: background-color 0.5s;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: rgb(242, 55, 114);
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #f0d0f0;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.top-image {
+  display: flex;
+  width: 80%;
+  justify-items: center;
+}
+
+.top-header-image {
+  display: flex;
+  justify-content: center;
 }

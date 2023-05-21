@@ -6,7 +6,6 @@ let currentSlide = 0;
 const cardsPerPage = 4;
 const cardWidth = 320;
 
-// Fetch data from the API
 fetch(
   "https://mikaela-exam.flywheelsites.com//wp-json/wp/v2/posts/?per_page=30"
 )
