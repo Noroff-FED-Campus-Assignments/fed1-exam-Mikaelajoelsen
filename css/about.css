@@ -25,3 +25,8 @@ p {
   width: 30rem;
   height: 30rem;
 }
+
+.aboutpage-image {
+  display: flex;
+  justify-content: center;
+}
