@@ -226,7 +226,7 @@ input:checked + .slider:before {
   gap: 1em;
 }
 .dessert-card {
-  width: 250px;
+  width: 300px;
   height: 550px;
 }
 
