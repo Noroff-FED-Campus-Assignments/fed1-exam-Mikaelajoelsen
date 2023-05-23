@@ -74,8 +74,3 @@ a {
   text-decoration: underline;
   list-style: none;
 }
-
-.blog-section .container {
-  display: flex;
-  justify-content: center;
-}
