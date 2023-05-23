@@ -10,8 +10,8 @@ h1 {
 
 .blog-section {
   display: flex;
-  flex-direction: row;
   justify-items: center;
+  flex-direction: row;
   align-content: center;
   margin: 1em;
   border-radius: 1em;
