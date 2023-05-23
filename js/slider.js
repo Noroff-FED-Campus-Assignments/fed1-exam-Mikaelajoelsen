@@ -13,10 +13,10 @@ fetch(
   .then((data) => {
     const cards = data.map(
       (post) => `
-      <div class="card">
+      <a href="details.html?id=${post.id}" class="card">
         <h3>${post.title.rendered}</h3>
         <p class="Title">${post.excerpt.rendered}</p>
-      </div>
+      </a>
     `
     );
 
