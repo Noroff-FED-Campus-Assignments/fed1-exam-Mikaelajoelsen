@@ -10,7 +10,7 @@ h1 {
 
 .blog-section {
   display: flex;
-  justify-items: center;
+  justify-self: center;
   flex-direction: row;
   align-content: center;
   margin: 1em;
