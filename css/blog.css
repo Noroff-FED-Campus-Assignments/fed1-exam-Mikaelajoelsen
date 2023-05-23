@@ -8,7 +8,7 @@ h1 {
   font-size: 60px;
 }
 
-.card-section {
+.blog-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
