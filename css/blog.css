@@ -75,8 +75,7 @@ a {
   list-style: none;
 }
 
-.blogpage-cards {
+.blog-section .container {
   display: flex;
-  justify-items: center;
-  flex-direction: row;
+  justify-content: center;
 }
