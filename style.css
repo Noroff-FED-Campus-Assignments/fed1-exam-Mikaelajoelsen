@@ -274,6 +274,5 @@ input:checked + .slider:before {
 .food-list {
   display: flex;
   justify-content: center;
-  margin-top: 1em;
   flex-wrap: wrap;
 }
