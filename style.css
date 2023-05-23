@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   font-family: "Indie Flower", cursive;
   font-family: "Major Mono Display", monospace;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .foodies {
@@ -46,7 +46,7 @@
   display: flex;
   flex-wrap: wrap;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: -13px;
   text-decoration: underline;
 }
@@ -81,7 +81,7 @@
 
 .latest-posts {
   padding: 0 10vh;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 50px;
   text-transform: capitalize;
@@ -113,7 +113,7 @@
 .toggle-switch {
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 50px;
   height: 34px;
 }
 
@@ -226,8 +226,8 @@ input:checked + .slider:before {
   gap: 1em;
 }
 .dessert-card {
-  width: 450px;
-  height: 650px;
+  width: 350px;
+  height: 550px;
 }
 
 .dessert-card img {
