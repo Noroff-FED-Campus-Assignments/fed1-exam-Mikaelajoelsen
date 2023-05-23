@@ -13,7 +13,7 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 500px;
   text-decoration: none;
   background-color: rgb(232, 213, 232);
   padding: 1.25rem;
@@ -26,7 +26,7 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 80em;
+  max-width: 50em;
   text-decoration: none;
   background-color: rgb(243, 224, 227);
   padding: 1.25rem;
