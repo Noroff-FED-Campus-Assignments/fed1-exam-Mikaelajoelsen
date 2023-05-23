@@ -22,7 +22,7 @@ h1 {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   width: 500px;
   height: 50%;
@@ -73,4 +73,10 @@ a {
   color: rgb(230, 127, 144);
   text-decoration: underline;
   list-style: none;
+}
+
+.blogpage-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
