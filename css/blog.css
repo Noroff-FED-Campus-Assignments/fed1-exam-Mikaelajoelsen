@@ -11,6 +11,7 @@ h1 {
 .blog-section {
   display: flex;
   justify-items: center;
+  align-content: center;
   flex-direction: row;
   margin: 1em;
   border-radius: 1em;
