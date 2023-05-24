@@ -60,6 +60,6 @@ function makeCards(postsArray) {
   postsArray.forEach((post) => {
     const imageUrl = getImgUrl(post.content);
     blogContainer.innerHTML += ` <a href="details.html?id=${post.id}" class="container" style="height: auto;"> <h2>${post.title.rendered}</h2> 
-    <img src="${imageUrl}" alt="blog image" style="height: 324px; width: 400px;"> </a> `;
+    <img class="blog-img" src="${imageUrl}" alt="blog image" style="height: 324px; width: 400px;"> </a> `;
   });
 }
