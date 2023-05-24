@@ -26,7 +26,7 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 65em;
+  max-width: 45em;
   text-decoration: none;
   background-color: rgb(243, 224, 227);
   padding: 1.25rem;
