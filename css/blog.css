@@ -1,11 +1,14 @@
 h2 {
   font-size: 20px;
+  color: black;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   font-size: 60px;
+  text-decoration: none;
+  color: black;
 }
 
 .blog-section {
