@@ -11,15 +11,11 @@ h1 {
 .blog-section {
   display: flex;
   justify-items: center;
+  justify-content: center;
   flex-direction: row;
   margin: 1em;
   border-radius: 1em;
   flex-wrap: wrap;
-}
-
-.blog-cards {
-  display: flex;
-  justify-content: center;
 }
 
 .container {
