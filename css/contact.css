@@ -18,7 +18,7 @@ body {
   margin-bottom: 100px;
   padding: 20px;
   position: relative;
-  max-width: 840px;
+  max-width: 85em;
   border: 2px solid pink;
   border-radius: 40px 40px 40px 40px;
 }
