@@ -1,6 +1,6 @@
 .card-slider-container {
   width: 100%;
-  max-width: 1300px;
+  max-width: 100em;
   margin: 0 auto;
   padding: 20px;
 }
@@ -21,8 +21,8 @@
   scrollbar-color: #888888 transparent;
 }
 
-.card-slider .card {
-  flex: 0 0 300px;
+.card-slider .container {
+  flex: 100 0 200px;
   margin-right: 20px;
   padding: 20px;
   box-sizing: border-box;
@@ -33,17 +33,12 @@
   border: 5px solid rgb(242, 55, 114);
 }
 
-.card h3 {
+.container h2 {
+  color: black;
   margin-top: 0;
   background: none;
   margin-bottom: 10px;
   color: black;
-}
-
-.card p {
-  margin: 0;
-  color: black;
-  font-size: 20px;
 }
 
 .card-slider-navigation {
