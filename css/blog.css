@@ -17,7 +17,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-.cards {
+.blog-cards {
   display: flex;
   justify-content: center;
 }
