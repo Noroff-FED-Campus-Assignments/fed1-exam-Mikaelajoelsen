@@ -24,7 +24,7 @@ body {
 }
 
 .form-horizontal {
-  max-width: 400px;
+  max-width: 100%;
   font-family: "Lato";
   font-weight: 400;
 }
@@ -32,8 +32,8 @@ body {
 .form-control,
 textarea {
   max-width: 400px;
-  background-color: rgb(227, 206, 206);
-  color: #fff;
+  background-color: #fff;
+  color: black;
   letter-spacing: 1px;
 }
 
