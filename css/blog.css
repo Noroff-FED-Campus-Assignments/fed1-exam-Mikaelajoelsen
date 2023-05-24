@@ -15,6 +15,7 @@ h1 {
   margin: 1em;
   border-radius: 1em;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container {
