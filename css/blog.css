@@ -17,6 +17,10 @@ h1 {
   flex-wrap: wrap;
 }
 
+.blog-allcards {
+  display: flex;
+  justify-content: center;
+}
 .container {
   display: flex;
   flex-direction: column;
