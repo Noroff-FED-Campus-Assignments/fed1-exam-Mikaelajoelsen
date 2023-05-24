@@ -55,7 +55,7 @@ function makeCards(postsArray) {
     }" class="container" style="height: auto;"> <h2>${post.title.rendered}</h2> 
       <img src="${getImgUrl(
         post.content
-      )}" alt="blog image" style="height: 324px; width: 325px;"> </a> `;
+      )}" alt="blog image" style="height: 324px; object-fit: cover;"> </a> `;
   });
   cardSliderTrack.innerHTML = cards.join("");
 }
