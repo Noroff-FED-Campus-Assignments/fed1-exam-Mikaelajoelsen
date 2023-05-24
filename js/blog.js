@@ -59,6 +59,7 @@ function makeCards(postsArray) {
   const blogContainer = document.querySelector("#blog-container");
   postsArray.forEach((post) => {
     const imageUrl = getImgUrl(post.content);
-    blogContainer.innerHTML += ` <a href="details.html?id=${post.id}" class="container" style="height: auto;"> <h2>${post.title.rendered}</h2> <p class="Title">${post.excerpt.rendered}</p> <img src="${imageUrl}" alt="blog image" style="height: 324px;"> </a> `;
+    blogContainer.innerHTML += ` <a href="details.html?id=${post.id}" class="container" style="height: auto;"> <h2>${post.title.rendered}</h2> 
+    <img src="${imageUrl}" alt="blog image" style="height: 324px; width: 400px;"> </a> `;
   });
 }
