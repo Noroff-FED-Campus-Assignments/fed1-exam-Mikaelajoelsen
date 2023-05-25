@@ -1,6 +1,6 @@
 .card-slider-container {
   width: 100%;
-  max-width: 100em;
+  max-width: 80em;
   margin: 0 auto;
   padding: 20px;
 }
@@ -22,7 +22,7 @@
 }
 
 .card-slider .container {
-  flex: 100 0 200px;
+  flex: 50 0 100px;
   margin-right: 20px;
   padding: 20px;
   box-sizing: border-box;
