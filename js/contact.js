@@ -18,16 +18,18 @@ function checkFields(event) {
   }
 
   if (email === "" || !validateEmail(email)) {
-    document.getElementById("mailerrormsg").style.display = "block";
+    document.getElementById("emailerrormsg").style.display = "block";
     isAllOk = false;
   }
 
-  return isAllOk;
+  if (isAllOk) {
+    console.log("Form submitted successfully!");
+  }
 }
 
 function resetValidationFeedback() {
   document.getElementById("nameerrormsg").style.display = "none";
-  document.getElementById("mailerrormsg").style.display = "none";
+  document.getElementById("emailerrormsg").style.display = "none";
 }
 
 function validateEmail(email) {
