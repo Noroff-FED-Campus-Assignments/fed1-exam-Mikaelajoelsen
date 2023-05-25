@@ -1,6 +1,6 @@
 .card-slider-container {
   width: 100%;
-  max-width: 100em;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -21,8 +21,8 @@
   scrollbar-color: #888888 transparent;
 }
 
-.card-slider .container {
-  flex: 50 0 100px;
+.card-slider .card {
+  flex: 0 0 300px;
   margin-right: 20px;
   padding: 20px;
   box-sizing: border-box;
@@ -30,15 +30,20 @@
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   scroll-snap-align: start;
-  border: 5px solid rgb(242, 55, 114);
+  border: 5px solid rgb(255, 0, 183);
 }
 
-.container h2 {
-  color: black;
+.card h3 {
   margin-top: 0;
   background: none;
   margin-bottom: 10px;
   color: black;
+}
+
+.card p {
+  margin: 0;
+  color: black;
+  font-size: 20px;
 }
 
 .card-slider-navigation {
@@ -59,15 +64,15 @@
 .card-slider-nav-btn.prev {
   order: 1;
   background: pink;
+  border: 5px solid rgb(249, 199, 241);
   border-radius: 100px 100px 100px 100px;
-  border: none;
 }
 
 .card-slider-nav-btn.next {
   order: 2;
   background: pink;
+  border: 5px solid rgb(249, 199, 241);
   border-radius: 100px 100px 100px 100px;
-  border: none;
 }
 
 @media (max-width: 320px) {
