@@ -71,128 +71,100 @@
     </header>
     <main class="l-main">
       <hr class="line" />
-      <section id="contact-page">
-        <div class="contact-box">
-          <form id="js-form-contact" class="form-horizontal" autocomplete="off">
-            <div class="form-group">
-              <div class="col-sm-12">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="js-name"
-                  placeholder="NAME"
-                  name="name"
-                  value=""
-                  required
-                />
-                <p class="validation-error" id="nameerrormsg">
-                  Please enter your name above (can only contain letters).
-                </p>
-              </div>
-            </div>
+      <h2 class="h2-contact">Contact Us</h2>
+      <hr class="line-main" />
+      <div class="contact-all">
+        <div class="contact-container">
+          <div class="contact-info">
+            <form class="contact-main" id="js-form-contact" autocomplete="off">
+              <label for="name">Name:</label>
+              <input id="js-name" name="name" />
+              <p class="validationerror" id="nameerrormsg">
+                Please enter your name above (can only contain letters).
+              </p>
+              <label for="email">Email:</label>
+              <input id="js-email" name="email" />
+              <p class="validationerror" id="mailerrormsg">
+                Please enter a correct email above (test@test.com).
+              </p>
+              <label for="Adress">Adress:</label>
+              <input type="Adress" id="js-adress" name="adress" />
+              <p class="validationerror" id="addresserrormsg">
+                Please enter your address above.
+              </p>
 
-            <div class="form-group">
-              <div class="col-sm-12">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="js-email"
-                  placeholder="EMAIL"
-                  name="email"
-                  value=""
-                  required
-                />
-                <p class="validation-error" id="emailerrormsg">
-                  Please enter your email adress above (test@test.com).
-                </p>
-              </div>
-            </div>
+              <label for="subject">Subject:</label>
+              <input type="text" id="js-subject" name="subject" />
 
-            <div class="form-group">
-              <div class="col-sm-12">
-                <input
-                  type="subject"
-                  class="form-control"
-                  id="subject"
-                  placeholder="Subject"
-                  name="email"
-                  value=""
-                  required
-                />
-              </div>
-            </div>
+              <label for="message">Message:</label>
+              <textarea id="js-message" name="message" rows="4"></textarea>
 
-            <textarea
-              class="form-control"
-              rows="10"
-              placeholder="MESSAGE"
-              name="message"
-              required
-            ></textarea>
+              <label for="birthday">Birthday:</label>
+              <input type="date" id="js-birthday" name="js-birthday" />
+              <p class="validationerror" id="dateerrormsg">
+                Please enter a valid birth date.
+              </p>
 
-            <button class="send-button" id="submit" type="submit" value="SEND">
-              <div class="alt-send-button">
-                <i class="fa fa-paper-plane"></i
-                ><span class="send-text">SEND</span>
-              </div>
-            </button>
-          </form>
-
-          <div class="contact-container">
-            <ul class="contact-list">
-              <li class="list-item">
-                <i class="fa fa-map-marker fa-2x"
-                  ><span class="contact-text place">Oslo, Norway</span></i
-                >
-              </li>
-
-              <li class="list-item">
-                <i class="fa fa-phone fa-2x"
-                  ><span class="contact-text phone"
-                    ><a href="tel:1-212-555-5555" title="Give me a call"
-                      >(+47) 455 89 546</a
-                    ></span
-                  ></i
-                >
-              </li>
-
-              <li class="list-item">
-                <i class="fa fa-envelope fa-2x"
-                  ><span class="contact-text gmail"
-                    ><a href="mailto:#" title="Send me an email"
-                      >blogforfoodies@hotmail.com</a
-                    ></span
-                  ></i
-                >
-              </li>
-            </ul>
-            <hr />
-            <ul class="social-media">
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-snapchat" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-facebook" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-twitter" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" target="_blank" class="contact-icon">
-                  <i class="fa fa-instagram" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
-            <hr />
+              <button type="submit">Submit</button>
+            </form>
           </div>
         </div>
-      </section>
+
+        <div class="contact-social-media">
+          <ul class="contact-list">
+            <li class="list-item">
+              <i class="fa fa-map-marker fa-2x"
+                ><span class="contact-text place">Oslo, Norway</span></i
+              >
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-phone fa-2x"
+                ><span class="contact-text phone"
+                  ><a href="tel:1-212-555-5555" title="Give me a call"
+                    >(+47) 455 89 546</a
+                  ></span
+                ></i
+              >
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-envelope fa-2x"
+                ><span class="contact-text gmail"
+                  ><a href="mailto:#" title="Send me an email"
+                    >blogforfoodies@hotmail.com</a
+                  ></span
+                ></i
+              >
+            </li>
+          </ul>
+          <hr />
+          <ul class="social-media">
+            <li>
+              <a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-snapchat" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </div>
+      <hr class="line-main" />
     </main>
     <footer>
       <h2>NewsLetter</h2>
