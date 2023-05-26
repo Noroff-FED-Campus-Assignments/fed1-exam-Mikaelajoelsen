@@ -36,8 +36,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script type="module" defer src="/js/menu.js"></script>
     <script type="module" defer src="/js/blog.js"></script>
+    <script type="module" defer src="/js/toggle.js"></script>
     <!-- Hotjar Tracking Code for Mikaela Exam -->
     <script>
       (function (h, o, t, j, a, r) {
@@ -62,6 +62,10 @@
       <h1 class="title">BLOG POSTS</h1>
       <div class="main-list">
         <nav>
+          <label class="toggle-switch">
+            <input type="checkbox" id="toggle" />
+            <span class="slider"></span>
+          </label>
           <ul>
             <li><a href="index.html">Home Page</a></li>
             <li><a href="blog.html">Recipes</a></li>
