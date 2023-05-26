@@ -48,6 +48,12 @@ textarea {
   width: 40%;
 }
 
+.contact-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .validationerror {
   color: red;
   display: none;
