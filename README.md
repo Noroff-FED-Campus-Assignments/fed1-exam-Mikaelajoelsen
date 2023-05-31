@@ -1,5 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/EF97x2Z3)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10994520&assignment_repo_type=AssignmentRepo)
+
 # FED Exam - Vanilla Front-end Website
 
 This bootstrap template is intended to help you deliever a amazing website which delights your end-users. Feel free to change, remove or start your own project from scratch. Please replace any text which starts with an `_`.
@@ -10,27 +11,20 @@ This project was bootstrapped with Vite.
 
 ## Resources
 
-<!-- You must replace these links -->
+Title:
+Blog for foodies
+
+Description:
+This is a blogpage about lots of different foods from with inspiration from different countries. There are ceveral recipes and instructions on how to make the different foods.
+
+Different link to my page:
 
 - [Brief](https://fed-vocational-astro-course.vercel.app/en/exam-1/brief)
-- [Design](_LINK_TO_FIGMA_)
-- [Production deploy](_LINK_TO_WEBSITE_)
-- [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
-- [API Docs](_LINK_TO_API_DOCS_)
-- [API Endpoint](_LINK_TO_API_DOC)
-
-## Deployment
-
-Your deployment is done via static hosting provider (Vercel is recommended).
-YOu can update your deployment pipeling by editing the [vercel.json](https://vercel.com/docs/concepts/projects/project-configuration).
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FS3ak%2Ffed1-exam-vanilla-frontend-website&env=API_TOKEN,API_SECRET&envDescription=The%20API_TOKEN%20is%20needed%20to%20access%20a%20secure%20API%20endpoint.%20This%20can%20be%20the%20Authorization%20%60Bearer%20Token%60%20header%20used%20to%20make%20queries.&envLink=https%3A%2F%2Fvitejs.dev%2Fguide%2Fenv-and-mode.html&project-name=exam-front-end&repository-name=fed1-exam-vanilla-frontend-website&skippable-integrations=1)
+- [Design](https://www.figma.com/file/ft1qGGcnFc8IIp2RFJef2H/Untitled?type=design&t=juc1LUWnbhBLxGxm-6)
+- [Production deploy](https://playful-bunny-3a50bc.netlify.app)
+- [github](https://github.com/Noroff-FED-Campus-Assignments/fed1-exam-Mikaelajoelsen.git)
 
 ## Report
-
-_ADD_YOUR_REPORT_HERE_
-
-## Getting Started
 
 In the project directory, you can run:
 
